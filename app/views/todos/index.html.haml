@@ -1,0 +1,7 @@
+%h1 Todo list
+
+%ul
+- @todos.each do |todo|
+  %li
+    =todo.title
+    =todo.done
